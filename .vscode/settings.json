@@ -1,0 +1,5 @@
+{
+  "eslint.enable": false,
+  "react.beautify.formatter": "esformatter",
+  "react.beautify.onSave": true
+}

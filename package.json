@@ -1,0 +1,70 @@
+{
+  "name": "markpuki",
+  "productName": "MarkPuki",
+  "version": "0.0.0",
+  "description": "My first electron app",
+  "license": "MIT",
+  "repository": "negibokken/pukimark",
+  "author": {
+    "name": "bokken",
+    "email": "negibokken@gmail.com",
+    "url": "localhost.com"
+  },
+  "scripts": {
+    "test": "xo",
+    "start": "electron .",
+    "build": "electron-packager . --out=dist --asar --overwrite --all"
+  },
+  "files": [
+    "index.js",
+    "app.js",
+    "index.html",
+    "index.css"
+  ],
+  "keywords": [
+    "electron-app",
+    "electron"
+  ],
+  "dependencies": {
+    "brace": "^0.9.1",
+    "classnames": "^2.2.5",
+    "electron": "^1.3.3",
+    "electron-connect": "^0.6.1",
+    "electron-debug": "^1.0.0",
+    "flexboxgrid": "^6.3.1",
+    "marked": "^0.3.6",
+    "react": "^15.4.1",
+    "react-ace": "^4.1.0",
+    "react-bootstrap": "^0.30.7",
+    "react-dom": "^15.4.1",
+    "react-flexbox-grid": "^0.10.2",
+    "reactcss": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^0.14.55",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babelify": "^7.3.0",
+    "css-loader": "^0.26.1",
+    "del": "^2.2.2",
+    "devtron": "^1.1.0",
+    "electron-packager": "^8.0.0",
+    "esformatter": "^0.10.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-load-plugins": "^1.4.0",
+    "merge-stream": "^1.0.1",
+    "prettydiff": "^99.0.1",
+    "style-loader": "^0.13.1",
+    "typescript": "^2.1.4",
+    "webpack": "^1.14.0",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ]
+  }
+}
